@@ -57,5 +57,5 @@ $$;
 GRANT USAGE on FUNCTION TESTING.DMF_PII.VALIDATE_EMAIL(varchar) to role <your role>;
 
 -- ******Important*****
--- replace the table name in __init__ as fully qualitified name
+-- replace the table name in __init__ as fully qualified name
 -- DMF_LOG_TABLE = "DATA_METRICS_DB.DQ.DMF_ASSOCIATIONS"
