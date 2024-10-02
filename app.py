@@ -23,7 +23,7 @@ import time
 
 # Get the current Snowflake session
 session = get_active_session()
-debug = True
+debug = False
 prefix = ''
 # put the session in State object
 st.session_state['session'] = session
@@ -51,7 +51,7 @@ if debug:
 
 if page == 'Home':
     with stylable_container(key="MainBlock", css_styles=card):
-        st.header("Snowflake Data Quality Manager (INTERNAL USE ONLY)")
+        st.header("Snowflake Data Quality Manager")
         st.subheader("Choose options from the left hand side navigation menu.")
         st.markdown(
             """
