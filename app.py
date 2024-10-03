@@ -34,7 +34,7 @@ st.set_page_config(layout="centered", page_title="Data Quality Manager")
 st.markdown(adjust_streamlit_style, unsafe_allow_html=True)
 
 try:
-    set_png_as_page_bg(st.session_state['session'], 'DEMODB.DEV.BG_IMAGE', 'iceberg.png')
+    set_png_as_page_bg(st.session_state['session'], 'DATA_METRICS_DB.DQ.DMF_FILES', 'iceberg.png')
 except Exception as e:
     st.write()
 
